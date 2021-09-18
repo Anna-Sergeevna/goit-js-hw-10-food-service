@@ -6,14 +6,16 @@
   "homepage": "https://Anna-Sergeevna.github.io/goit-js-hw-10-food-service",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Anna-Sergeevna/goit-js-hw-10-food-service.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Anna-Sergeevna",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Anna-Sergeevna/goit-js-hw-10-food-service/issues"
